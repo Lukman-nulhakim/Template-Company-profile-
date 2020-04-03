@@ -1,89 +1,56 @@
-.navs {
-    background-color: #4a7aec;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+.banner_inner {
+    background-image: url('../img/banner_service.jpg');
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.teambug {
-    font-size: 40px;
-    font-family: 'Spicy Rice', cursive;
-    font-family: 'Monoton', cursive;
-    color: white;
-    padding-top: 10px;
+
+/* kolom menu service      */
+
+.services_item {
+    text-align: center;
+    padding: 45px 55px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
-#nav1 {
-    padding-top: 15px;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 18px;
+.services_item img {
+    margin-bottom: 23px;
 }
 
-#login {
-    font-family: 'Kaushan Script', cursive;
-    padding: 20px;
+.services_item h4 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 18px;
 }
 
-.menu a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
+.services_item p {
+    font-size: 14px;
+    color: gray;
 }
 
-.menu a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
-    color: rgb(107, 69, 129);
+.services_item:hover {
+    box-shadow: 0px 10px 30px 25px rgba(0, 0, 0, 0.1);
 }
 
-.menu1 a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
+
+/* point */
+
+.kolom_point {
+    background-color: #25499f;
+    padding: 115px 0px 115px 0px;
 }
 
-.menu1 a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
-    color: rgb(107, 69, 129);
+.kolom_point .point_inner .point_item h3 {
+    font-size: 75px;
 }
 
-.teambugfooter {
-    font-size: 40px;
-    font-family: 'Spicy Rice', cursive;
-    font-family: 'Monoton', cursive;
-    color: white;
-}
 
-.top-footer {
-    background-color: #392c49;
-    color: lightgray;
-}
+/* testimonial */
 
-.nav1footer a {
-    color: hsla(0, 0%, 100%, 0.836);
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-.nav1footer a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
-    color: rgb(180, 135, 84);
-}
-
-.nav2footer a {
-    color: hsla(0, 0%, 100%, 0.836);
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-.nav2footer a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
-    color: rgb(180, 135, 84);
+.carousel-indicators {
+    top: 100%;
 }

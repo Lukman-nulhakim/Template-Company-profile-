@@ -1,53 +1,18 @@
-.navs {
-    background-color: #4a7aec;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+.buge-area {
+    background-image: url(../img/logo\ awal.png);
 }
 
-.teambug {
+.contact h2 {
     font-size: 40px;
-    font-family: 'Spicy Rice', cursive;
-    font-family: 'Monoton', cursive;
-    color: white;
-    padding-top: 10px;
+    margin-bottom: 50px;
+    font-weight: 900;
 }
 
-#nav1 {
-    padding-top: 15px;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 18px;
-}
-
-#login {
-    font-family: 'Kaushan Script', cursive;
-    padding: 20px;
-}
-
-.menu a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-.menu a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
-    color: rgb(107, 69, 129);
-}
-
-.menu1 a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-.menu1 a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
-    color: rgb(107, 69, 129);
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .teambugfooter {
