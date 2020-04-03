@@ -2,6 +2,7 @@
     background-color: #4a7aec;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .teambug {
@@ -85,4 +86,202 @@
 .show-menu-btn:hover,
 .hide-menu-btn:hover {
     color: rgb(180, 135, 84);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mt-200 {
+    margin-top: 200px !important;
+}
+
+.dream {
+    height: 110vh;
+    background-image: linear-gradient(to bottom, #000, #4a7aec);
+    padding: 0 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dream h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.dream .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.client .title p,
+.services .title p,
+.portfolio .title p,
+.contact .title p {
+    color: #bec0cc;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.client .title h5,
+.services .title h5,
+.portfolio .title h5,
+.contact .title h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.client .col-sm-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.client {
+    padding: 100px 0;
+}
+
+.services {
+    background-color: #211b31;
+    padding: 100px 0;
+}
+
+.services .title h5,
+.our-service {
+    color: #fff;
+}
+
+.our-service i {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.our-service h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.our-service p {
+    font-size: 12px;
+}
+
+.our-service .col-sm-12:hover {
+    background-color: #dc3545;
+}
+
+.our-service .col-sm-12:hover i {
+    transform: scale(1.5);
+    transition: all .5s ease;
+}
+
+.portfolio {
+    padding-top: 100px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transition: all .5s ease;
+}
+
+.portfolio .col-sm-12:hover .brand {
+    z-index: 1;
+    opacity: .95;
+    transition: all .5s ease;
+}
+
+.portfolio .col-sm-12:hover img {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+.brand {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a7aec;
+    opacity: 0;
+    z-index: -1;
+    transition: all .5s ease;
+}
+
+.brand h6 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.brand a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #211b31;
+    margin-top: 10px;
+}
+
+.brand a:hover {
+    background-color: #2d263f;
+}
+
+.contact {
+    background-image: url('../img/parallax/artem-gavrysh-fteu2Irt35I-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 0;
+    position: relative;
+}
+
+.contact::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2d263f;
+    opacity: .80;
+}
+
+.contact .title h5 {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.contact .title p {
+    position: relative;
+    z-index: 1;
+}
+
+.contact .title a {
+    background-color: #4a7aec;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
 }
