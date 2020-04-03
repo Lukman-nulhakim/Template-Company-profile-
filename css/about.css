@@ -1,0 +1,89 @@
+.navs {
+    background-color: #4a7aec;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.teambug {
+    font-size: 40px;
+    font-family: 'Spicy Rice', cursive;
+    font-family: 'Monoton', cursive;
+    color: white;
+    padding-top: 10px;
+}
+
+#nav1 {
+    padding-top: 15px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+}
+
+#login {
+    font-family: 'Kaushan Script', cursive;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+    color: rgb(107, 69, 129);
+}
+
+.menu1 a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu1 a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+    color: rgb(107, 69, 129);
+}
+
+.teambugfooter {
+    font-size: 40px;
+    font-family: 'Spicy Rice', cursive;
+    font-family: 'Monoton', cursive;
+    color: white;
+}
+
+.top-footer {
+    background-color: #392c49;
+    color: lightgray;
+}
+
+.nav1footer a {
+    color: hsla(0, 0%, 100%, 0.836);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nav1footer a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+    color: rgb(180, 135, 84);
+}
+
+.nav2footer a {
+    color: hsla(0, 0%, 100%, 0.836);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nav2footer a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+    color: rgb(180, 135, 84);
+}
