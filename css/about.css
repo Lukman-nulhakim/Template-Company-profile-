@@ -1,0 +1,93 @@
+/* --------------------
+:: 13.0 Breadcumb CSS
+-------------------- */
+.mosh-breadcumb-area {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.bradcumbContent h2 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.bradcumbContent .breadcrumb {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.bradcumbContent .breadcrumb-item a,
+.bradcumbContent .breadcrumb-item {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* -----------------------
+:: 14.0 About Us CSS
+----------------------- */
+#rambat {
+    image-rendering: pixelated;
+}
+
+.few-words-from-ceo {
+    overflow-x: hidden;
+}
+
+.mosh-about-us-content .section-heading {
+    margin-bottom: 50px;
+}
+
+.few-words-contents,
+.few-words-thumb {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 770px;
+}
+
+.few-words-contents {
+    background-color: #211b31;
+}
+
+.few-words-text .section-heading {
+    margin-bottom: 50px;
+}
+
+.few-words-text .section-heading h2 {
+    color: #fff;
+}
+
+.few-words-text>p {
+    margin-bottom: 0;
+}
+
+.ceo-meta-data .ceo-thumb {
+    width: 52px;
+    height: 52px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 52px;
+    flex: 0 0 52px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.ceo-meta-data .ceo-name h6 {
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.ceo-meta-data .ceo-name p {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 700;
+}
